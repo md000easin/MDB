@@ -1,4 +1,17 @@
+/* NAVIGATION */
+:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* HEADER */
 .gradient {
   background: rgb(3, 94, 241);
   background: linear-gradient(to bottom right, rgb(3, 94, 241) 0%, rgb(97, 8, 202) 100%);
+}
+
+/* FEATURES LIST */
+.features-list-icon {
+  width: 4rem;
+  height: 4rem;
 }
