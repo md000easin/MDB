@@ -3,61 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MDB</title>
+    <title>MDB(EASIN)</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg fixed-top bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo.png" alt="">
-          </a>
+          <a class="navbar-brand" href="./index.html"><img src="img/logo.png" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav text-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#feature">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact</a>
+                <a class="nav-link" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
-      <header class="gradient pt-6 text-light">
+    <header class="gradient pt-6 text-light">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5">
                     <h1>Build website using MDB</h1>
                     <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                    <a href="" class="btn btn-outline-light">Learn More</a>
+                    <a href="#" class="btn btn-outline-light">Leanr more</a>
                 </div>
                 <div class="col-md-5">
-                    <img src="img/marketing.svg" alt="" class="img-fluid">
+                    <img src="img/email_campaign_monochromatic.svg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L60,138.7C120,117,240,75,360,101.3C480,128,600,224,720,229.3C840,235,960,149,1080,128C1200,107,1320,149,1380,170.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
-      </header>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#fff" fill-opacity="1" d="M0,160L60,133.3C120,107,240,53,360,42.7C480,32,600,64,720,106.7C840,149,960,203,1080,224C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </header>
 
+    <section class="section-clients py-5 py-lg-0">
+        <div class="container">
+            <div class="row align-items-center g-4 g-lg-5 g-xl-6 text-center">
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <img src="img/companies/1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <img src="img/companies/2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <img src="img/companies/3.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <img src="img/companies/4.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <img src="img/companies/5.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-2">
+                    <img src="img/companies/6.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-features gradient text-light" id="feature">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#fff" fill-opacity="1" d="M0,160L60,133.3C120,107,240,53,360,42.7C480,32,600,64,720,106.7C840,149,960,203,1080,224C1200,245,1320,235,1380,229.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <img src="img/marketing.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Introducing MDB</h2>
+                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
+                    <ul class="list-unstyled vstack gap-2 mt-4 ">
+                        <li><i class="bi bi-check-circle"></i>  Best for Creative Agency</li>
+                        <li><i class="bi bi-check-circle"></i>  Best for Creative Agency</li>
+                        <li><i class="bi bi-check-circle"></i>  Best for Creative Agency</li>
+                        <li><i class="bi bi-check-circle"></i>  Best for Creative Agency</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#fff" fill-opacity="1" d="M0,160L60,133.3C120,107,240,53,360,42.7C480,32,600,64,720,106.7C840,149,960,203,1080,224C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </section>
+
+    <section class="features-list pb-6 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="features-list-icon gradient text-light d-inline-flex align-items-center justify-content-center rounded-circle fs-2 mb-4">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h3>Built for developers</h3>
+                    <p>Our customizable, block-based build system makes creating your next project fast and easy!</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-list-icon gradient text-light d-inline-flex align-items-center justify-content-center rounded-circle fs-2 mb-4">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h3>Built for developers</h3>
+                    <p>Our customizable, block-based build system makes creating your next project fast and easy!</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-list-icon gradient text-light d-inline-flex align-items-center justify-content-center rounded-circle fs-2 mb-4">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h3>Built for developers</h3>
+                    <p>Our customizable, block-based build system makes creating your next project fast and easy!</p>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="section-gallery bg-light pt-6" id="gallery">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <h2>Check our latest awesome creative work</h2>
+                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template</p>
+                </div>
+            </div>
+            <div class="row g-3 justify-content-center">
+                <div class="col-lg-4">
+                    <img src="img/c1.jpg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/c3.jpg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/c2.jpg" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-end">
+                    <a href="" class="btn btn-outline-secondary mt-3"> See All Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-services gradient text-light justify-content-center" id="service">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#f5f5f5" fill-opacity="1" d="M0,160L60,133.3C120,107,240,53,360,42.7C480,32,600,64,720,106.7C840,149,960,203,1080,224C1200,245,1320,235,1380,229.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="btn btn-outline-light mb-2">Coding</div>
+                    <h2>We code.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, tempore placeat corrupti enim, cumque ex? Mollitia nihil sint cumque omnis iure nisi.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/coding_.svg" alt="" class="img-fluid">
+                </div>
+                
+                <div class="col-lg-6 order-1 order-md-0">
+                    <img src="img/seo_monochromatic.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 order-0 order-md-1">
+                    <div class="btn btn-outline-light mb-2">Coding</div>
+                    <h2>We code.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, tempore placeat corrupti enim, cumque ex? Mollitia nihil sint cumque omnis iure nisi.</p>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#fff" fill-opacity="1" d="M0,160L60,133.3C120,107,240,53,360,42.7C480,32,600,64,720,106.7C840,149,960,203,1080,224C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </section>
+
+    <section class="section-contact" id="contact">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-lg-6">
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                          <label for="FormControlInput" class="form-label">Full name</label>
+                          <input type="text" class="form-control" id="FormControlInput">
+                        </div>
+                        <div class="mb-3">
+                          <label for="FormControlInput1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                        <div>
+                          <button type="submit" class="btn gradient text-light border-0">Submit</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/handshake.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-footer gradient py-3 text-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Made With <i class="bi bi-coin"></i> By MD EASIN
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    
 </body>
 </html>
